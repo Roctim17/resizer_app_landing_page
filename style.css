@@ -1,6 +1,17 @@
 body{
     margin: 0;
-    background: rgba(68, 87, 255, 0.3);
+    padding: 0;
+    background: #E5E5E5;
+}
+section{
+    margin: 0;
+}
+#header{
+    background-image: url(image/Ellipse\ 17.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
 }
 header{
     display: flex;
@@ -54,6 +65,12 @@ h1{
     font-size: 50px;
     margin-bottom: 0px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
 .top{
     text-align: center;   
 }
@@ -61,20 +78,42 @@ h1{
     padding-bottom: 50px;
     font-size: 20px;
 }
+#work{
+    background-image: url(image/Ellipse\ 18.png);
+    background-repeat: no-repeat;
+}
 .work{
     text-align: center;
-    margin: 150px 10px 10px 10px;
+    margin: 10px;
 }
 .workdetail{
     padding: 20px;
-    width: 80%;
+    overflow: hidden;
+    margin-left: 140px;
+    padding-bottom: 200px;
+
 }
 .workd{
     width: 300px;
     float: left;
     border: 1px solid #fff;
     background-color: #fff;
-    margin-right: 35px;
+    margin-right: 60px;
     padding: 30px;
     border-radius: 25px;
+}
+.workd:last-child{
+    margin-right: 0;
+}
+.get{
+    display: flex;
+    border: 1px solid #fff;
+    width: 1200px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    margin-left: 100px;
+}
+.getbox{
+    width: 50%;
 }
