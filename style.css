@@ -35,12 +35,14 @@ a{
     padding: 15px 30px;
     border-radius: 30px;
     color: #fff;
+    box-shadow: 10px 10px 40px #CC44FF;
 }
 #login{
     background: linear-gradient(208.61deg, #4457FF 7.41%, #4457FF 80.94%);
 }
 #vip{
     background: linear-gradient(208.61deg, #CC44FF 7.41%, #CC44FF 80.94%);
+
 }
 #template{
     padding: 15px 50px;
@@ -58,4 +60,21 @@ h1{
 .top p{
     padding-bottom: 50px;
     font-size: 20px;
+}
+.work{
+    text-align: center;
+    margin: 150px 10px 10px 10px;
+}
+.workdetail{
+    padding: 20px;
+    width: 80%;
+}
+.workd{
+    width: 300px;
+    float: left;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-right: 35px;
+    padding: 30px;
+    border-radius: 25px;
 }
