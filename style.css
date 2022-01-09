@@ -2,16 +2,15 @@ body{
     margin: 0;
     padding: 0;
     background: #E5E5E5;
-}
-section{
-    margin: 0;
-}
-#header{
+    font-family: 'Poppins', sans-serif;
     background-image: url(image/Ellipse\ 17.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: 0%;
     
-
+}
+section{
+    margin: 0;
 }
 header{
     display: flex;
@@ -106,26 +105,22 @@ p{
 }
 .get{
     display: flex;
-    
     background: #FFFFFF66;
-    
     padding: 25px;
     margin-left: 140px;
     margin-bottom: 150px;
     height: 211px;
-width: 1240px;
-left: 100px;
-top: 1359px;
-border-radius: 30px;
-
+    width: 1240px;
+    left: 100px;
+    top: 1359px;
+    border-radius: 30px;
 }
 .getbox{
     width: 50%;
 }
 #sub{
     background: linear-gradient(208.61deg, #CC44FF 7.41%, #4457FF 80.94%);
-    padding: 10px 30px
-    
+    padding: 10px 30px  
 }
 .input{
     border: 1px solid #fff;
@@ -159,10 +154,71 @@ border-radius: 30px;
 }
 .temp{
     height: 349px;
+    width: 380px;
+    left: 100px;
+    top: 1963px;
+    border-radius: 20px;
+    border: 1px;
+    background: #C4C3CE;
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+.temp:last-child{
+    margin-right: 0;
+}
+.tempgroup{
+    margin: 150px 115px;
+}
+.partner{
+    height: 170px;
 width: 380px;
 left: 100px;
-top: 1963px;
+top: 2972px;
 border-radius: 20px;
-border: 1px solid #fff;
-
+background: #86868666;
+margin-right: 70px;
+}
+.partner:last-child{
+    margin-right: 0;
+}
+.container{
+    display: flex;
+    padding: 100px 150px;
+}
+#partners{
+    text-align: center;
+}
+#footer{
+    display: flex;
+    padding: 100px 90px;
+}
+.logo2{
+    width: 40%;
+}
+.Navigation{
+    width: 20%;
+}
+.About{
+    width: 20%;
+}
+.Stay{
+    width: 20%;
+}
+.footer{
+    margin-right: 30px;
+}
+.footer:last-child{
+    margin-right: 0;
+}
+.copy{
+    text-align: center;
+    color: #4457FF;
+    padding-bottom: 50px;
+}
+footer{
+    background: rgba(255, 255, 255, 0.5);
+    background-image: url(image/Ellipse\ 20.png);
+    background-repeat: no-repeat;
+    background-position-y: 90%;
 }
